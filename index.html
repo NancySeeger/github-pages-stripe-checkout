@@ -23,24 +23,24 @@
             <h1>One-time Donation</h1>
             <button
               data-checkout-mode="payment"
-              data-price-id="sku_GU4JYXyvvRb2sX"
+              data-price-id="price_1H2og3HLl3q0DqCYXbwzh5Nw"
             >
-              Donate $5.00 once
+              Donate $20.00 once
             </button>
             <button
               data-checkout-mode="payment"
-              data-price-id="sku_GU4KO8nfdg8G2Z"
-            >
-              Donate $15.00 once
-            </button>
-            <button
-              data-checkout-mode="payment"
-              data-price-id="sku_GU4LB0wBViiYsm"
+              data-price-id="price_1H2ogNHLl3q0DqCYOi2z8yws"
             >
               Donate $50.00 once
             </button>
+            <button
+              data-checkout-mode="payment"
+              data-price-id="price_1H2oghHLl3q0DqCYE0kBrTY7"
+            >
+              Donate $100.00 once
+            </button>
           </section>
-          <section class="container">
+          <!-- <section class="container">
             <h1>Recurring Donation</h1>
             <button
               data-checkout-mode="subscription"
@@ -48,7 +48,7 @@
             >
               Donate $20.00 per month
             </button>
-          </section>
+          </section> -->
         </div>
         <div id="error-message"></div>
       </div>
@@ -72,7 +72,7 @@
       // Replace with the domain you want your users to be redirected back to after payment
       var DOMAIN = location.href.replace(/[^/]*$/, '');
 
-      if (PUBLISHABLE_KEY === 'pk_test_Tr8olTkdFnnJVywwhNPHwnHK00HkHV4tnP') {
+      if (PUBLISHABLE_KEY === 'pk_test_V3VGaQo9iBaBt1egxh8KgJe7008bFGQPJP') {
         console.log(
           'Replace the hardcoded publishable key with your own publishable key: https://dashboard.stripe.com/test/apikeys'
         );
